@@ -5,11 +5,11 @@ import com.victoriaGreen.restaurant.modules.member.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
-//@RequiredArgsConstructor
+@Service
 public class MemberServiceImpl implements MemberService {
-    //    private final SmsMessageService smsMessageService;
+//    private final SmsMessageService smsMessageService;
 //    private final KakaoMessageService kakaoMessageService;
     private final MemberRepository memberRepository;
 
@@ -19,9 +19,7 @@ public class MemberServiceImpl implements MemberService {
     }
 
     @Override
-    public Boolean join(Member member) {
-        return null;
-    }
+    public Boolean join(Member member) { return null; }
 
     @Override
     public Boolean joinWithKakao(Member member) {
@@ -44,18 +42,18 @@ public class MemberServiceImpl implements MemberService {
     }
 
     @Override
-    public Member findLostMemberId(String name, int phoneNumber, String email) {
+    public Member findLostMemberId(String name, String phoneNumber, String email) {
         return null;
     }
 
     @Override
-    public Member generateTemporaryPassword(String name, int phoneNumber, String email) {
+    public Member generateTemporaryPassword(String name, String phoneNumber, String email) {
         return null;
     }
 
     @Override
     public Boolean login(Member member) {
-        return null;
+        return true;
     }
 
     @Override

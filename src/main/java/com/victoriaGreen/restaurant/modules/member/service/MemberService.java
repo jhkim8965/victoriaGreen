@@ -13,9 +13,9 @@ public interface MemberService {
 
     public Member findMember(Long memberId);
 
-    public Member findLostMemberId(String name, int phoneNumber, String email);
+    public Member findLostMemberId(String name, String phoneNumber, String email);
 
-    public Member generateTemporaryPassword(String name, int phoneNumber, String email);
+    public Member generateTemporaryPassword(String name, String phoneNumber, String email);
 
     public Boolean login(Member member);
 
