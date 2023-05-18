@@ -4,7 +4,6 @@ import com.victoriaGreen.restaurant.modules.member.domain.Member;
 import com.victoriaGreen.restaurant.modules.member.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service

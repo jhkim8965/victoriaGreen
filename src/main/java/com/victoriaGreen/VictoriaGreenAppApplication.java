@@ -1,4 +1,4 @@
-package com.victoriaGreen.restaurant;
+package com.victoriaGreen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

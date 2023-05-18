@@ -30,6 +30,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'  // Webflux for using WebClient
+	implementation 'org.json:json:latest.release'	// to use the latest version
 }
 
 tasks.named('test') {

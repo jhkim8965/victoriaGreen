@@ -1,10 +1,6 @@
 package com.victoriaGreen.restaurant.modules.member.domain;
 
 import com.victoriaGreen.restaurant.modules.member.domain.enums.Gender;
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 public class Member {
     private final Long id;

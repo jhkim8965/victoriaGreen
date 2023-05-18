@@ -1,4 +1,4 @@
-package com.victoriaGreen.common;
+package com.victoriaGreen.restaurant.common;
 
 import java.io.IOException;
 import java.io.InputStream;
