@@ -1,8 +1,8 @@
-package com.victoriaGreen.restaurant.modules.member.controller;
+package com.victoriaGreen.restaurant.module.member.controller;
 
-import com.victoriaGreen.restaurant.modules.member.domain.Member;
-import com.victoriaGreen.restaurant.modules.member.domain.enums.Gender;
-import com.victoriaGreen.restaurant.modules.member.service.MemberService;
+import com.victoriaGreen.restaurant.module.member.domain.Member;
+import com.victoriaGreen.restaurant.module.member.domain.enums.Gender;
+import com.victoriaGreen.restaurant.module.member.service.MemberService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

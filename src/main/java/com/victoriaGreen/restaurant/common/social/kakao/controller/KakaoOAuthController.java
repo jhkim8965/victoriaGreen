@@ -18,7 +18,7 @@ public class KakaoOAuthController {
 
     @GetMapping("/login")
     public String login() throws IOException {
-        return kakaoAccountService.requestLogin();
+        return kakaoAccountService.getAuthorizationCode();
     }
 
     @GetMapping("/login/callback")
@@ -28,9 +28,5 @@ public class KakaoOAuthController {
 
         KakaoUserInfo kakaoUserInfo = kakaoAccountService.getUserInfo(accessToken);
         System.out.println("kakaoUserInfo = " + kakaoUserInfo.toString());
-
-        // Deactivate an Access token.
-        String logoutUserId = kakaoAccountService.requestLogout(accessToken);
-        System.out.println("logoutUserId = " + logoutUserId);
     }
 }

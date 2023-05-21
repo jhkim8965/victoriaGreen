@@ -1,7 +1,7 @@
-package com.victoriaGreen.restaurant.modules.member.service;
+package com.victoriaGreen.restaurant.module.member.service;
 
-import com.victoriaGreen.restaurant.modules.member.domain.Member;
-import com.victoriaGreen.restaurant.modules.member.repository.MemberRepository;
+import com.victoriaGreen.restaurant.module.member.domain.Member;
+import com.victoriaGreen.restaurant.module.member.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

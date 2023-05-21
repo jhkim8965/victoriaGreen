@@ -1,4 +1,4 @@
-package com.victoriaGreen.restaurant.modules.member.util;
+package com.victoriaGreen.restaurant.module.member.util;
 
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,6 @@
-package com.victoriaGreen.restaurant.modules.member.repository;
+package com.victoriaGreen.restaurant.module.member.repository;
 
-import com.victoriaGreen.restaurant.modules.member.domain.Member;
+import com.victoriaGreen.restaurant.module.member.domain.Member;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 

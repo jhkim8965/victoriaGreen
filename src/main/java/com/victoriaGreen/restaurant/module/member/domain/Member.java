@@ -1,6 +1,6 @@
-package com.victoriaGreen.restaurant.modules.member.domain;
+package com.victoriaGreen.restaurant.module.member.domain;
 
-import com.victoriaGreen.restaurant.modules.member.domain.enums.Gender;
+import com.victoriaGreen.restaurant.module.member.domain.enums.Gender;
 
 public class Member {
     private final Long id;
